@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{51ffe550-af1a-4063-911d-1dc71a1d0b83}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Program.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <AssemblyName>ProjectEuler</AssemblyName>
+    <Name>ProjectEuler</Name>
+    <RootNamespace>ProjectEuler</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments />
+    <InterpreterPath />
+    <DebugStdLib>False</DebugStdLib>
+    <InterpreterArguments />
+    <InterpreterId>2af0f10d-7135-4994-9156-5d01c9c11b7e</InterpreterId>
+    <InterpreterVersion>3.2</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Euler013.py" />
+    <Compile Include="Euler014.py" />
+    <Compile Include="Euler015.py" />
+    <Compile Include="Euler016.py" />
+    <Compile Include="Euler017.py" />
+    <Compile Include="Euler031.py" />
+    <Compile Include="Euler077.py" />
+    <Compile Include="Euler077b.py" />
+    <Compile Include="Euler078.py" />
+    <Compile Include="Euler079.py" />
+    <Compile Include="Euler079b.py" />
+    <Compile Include="Euler080.py" />
+    <Compile Include="Euler081.py" />
+    <Compile Include="Euler083.py" />
+    <Compile Include="Euler084.py" />
+    <Compile Include="Euler085.py" />
+    <Compile Include="Euler086.py" />
+    <Compile Include="Euler088.py" />
+    <Compile Include="Euler089.py" />
+    <Compile Include="Euler090.py" />
+    <Compile Include="Euler091.py" />
+    <Compile Include="Euler092.py" />
+    <Compile Include="Euler093.py" />
+    <Compile Include="Euler094.py" />
+    <Compile Include="Euler095.py" />
+    <Compile Include="Euler096.py" />
+    <Compile Include="HelperMath.py" />
+    <Compile Include="Program.py" />
+    <Compile Include="SudokuSolver.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Euler013.txt" />
+    <Content Include="Euler079b.txt" />
+    <Content Include="Euler079.txt" />
+    <Content Include="Euler079c.txt" />
+    <Content Include="Euler081c.txt" />
+    <Content Include="Euler081b.txt" />
+    <Content Include="Euler081.txt" />
+    <Content Include="Euler082.py" />
+    <Content Include="Euler084.txt" />
+    <Content Include="Euler089.txt" />
+    <Content Include="Euler096.txt" />
+  </ItemGroup>
+</Project>
